@@ -1,9 +1,9 @@
 var CryptoJS = require('crypto-js');
 CryptoJS.classical = require('./index.js');
 
-var plaintext = "qwerqwerwqe";
+var plaintext = "all I ever wanted, all I ever needed";
 
-var ciphertext = CryptoJS.classical.atbash.encrypt(plaintext);
-var decipheredText = CryptoJS.classical.atbash.decrypt(ciphertext);
-
+console.log(plaintext);
+var ciphertext = CryptoJS.classical.caesar.encrypt(plaintext,4);
+var decipheredText = CryptoJS.classical.caesar.decrypt(ciphertext,4);
 console.log(decipheredText);
