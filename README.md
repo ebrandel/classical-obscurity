@@ -6,7 +6,9 @@ The goal is to create ciphers that honor their history and are as close to their
 However, this isn't to say they should be used. Utilizing anything here is foolish. These ciphers offer only minimal protection, mainly from the fact that they are somewhat obscure. And security through obscurity isn't really a thing.
 
 # Installation
-``` npm install classical-obscurity
+```
+npm install classical-obscurity
+```
 
 # Usage
 ```
